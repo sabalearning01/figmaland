@@ -6,7 +6,9 @@
 
 
 body{
-    overflow-x: hidden;
+     overflow-x: hidden;
+     max-width:  1,282px;
+     
 }
 header{
     display: flex;
@@ -57,7 +59,7 @@ color:#20262A;
 }
 
 .hero{
-    width:100%;
+    margin: 0 auto;
     
 }
 
@@ -160,7 +162,7 @@ color:#20262A;
     color:#F3CD03;
     font-size:2.25rem ;
     font-weight: 450;
-    position: relative;
+    /* position: relative; */
 }
 
  .parttwo h1{
@@ -226,89 +228,272 @@ color:#20262A;
 }
 
 
-.vek7{
-    
-        position: absolute;
-        right: 0;
-        bottom: 0px;
-        top: 1970px;
-        
+.opentype-container{
+    position: relative;
+    display: flex;
+    padding: 100px 118.5px;
+}
+.opentype-laptop{
+    z-index: 10;
+}
+.opentype-blue{
+    position: absolute;
+    right: 0;
+    top: 40px;
 }
 
-.flex{
+.opentype h3{
+    font-size: 2.25rem;
+    font-weight: 450;
+    line-height: 42px;
+    letter-spacing: 0.1px;
+    color:#20262A;
+    text-align: left;
+}
+
+.opentype p{
+    text-align: left;
+    color:#5C5C5C;
+    font-size: 1.5rem;
+    font-weight: 450;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+}
+
+.opentype a{
+    color:#00B6F0;
+    font-size: 1.125rem;
+    font-weight: 450;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.variable-parent{
+    position: relative;
+}
+.variable-container{
+    /* position: relative; */
+    display: flex;
+    padding: 0px 158px;  
+    
+}
+.variable-yellow{
+    position: absolute;
+}
+.variable-code{
+    z-index: 900;
+    margin-top: 40px;
+}
+
+
+.variable{
+    margin-top: 100px;
+    
+}
+
+.variable h3{
+    font-size: 2.25rem;
+    font-weight: 450;
+    line-height: 42px;
+    letter-spacing: 0.1px;
+    color:#20262A;
+    text-align: left;
+}
+
+
+
+.variable p{
+    text-align: left;
+    color:#5C5C5C;
+    font-size: 1.5rem;
+    font-weight: 450;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+}
+
+
+.variable a{
+    color:#00B6F0;
+    font-size: 1.125rem;
+    font-weight: 450;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* .grand{ 
+    margin: 0 auto;
+}
+*/
+
+
+
+.partthree h3{
+    margin-top: 72px;
+     text-align: center;
+     font-size: 3.5rem;
+     font-weight: 700;
+     line-height: 65px;
+     letter-spacing: 0.2px;
+     color:#20262A;
+}
+
+.partthree p{
+    text-align: center;
+    font-weight: 450;
+    font-size: 1.188rem;
+    color:#5C5C5C;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    margin-top: 7px;
+}
+
+.partthree .progress{
+    width:757px;
+    height:15px;
+    background-color:#F3F5F8; 
+    position: relative;
+    margin: 0 auto;
+    margin-top: 52px;
+    border-radius: 5px;
+}
+
+.partthree .progressbar{
+    width: 377.65px;
+    height: 15px;
+    gap: 0px;
+    opacity: 0px;
+    background: #00B6F0;
+    border-radius: 5px;
+
+
+}
+
+.facenum{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.facebook{
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 24px;
+    color:#505D6F;
+}
+
+
+.numbers{
+    font-family: roboto;
+    color:#505D70;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 24px;
+
+}
+
+.getstarted{
+   width:266px;
+   background-color: #00B6F0;
+   padding: 20px 36px 20px 36px;
+   border:none;
+   border-radius: 85px;
+   margin-left: 40%;
+   margin-right: 40%; 
+   margin-top: 52px;
+}
+
+.getstarted a {
+    color:white;
+    list-style: none;
+    text-decoration: none;
+    font-family: Circular Std;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    
+
+}
+
+.testimonytime{
+    text-align: center;
+    margin-top: 169px;
+    font-size: 2.25rem;
+    letter-spacing: 0.1px;
+    line-height: 42px;
+    font-weight: 450;
+    color:#20262A;
+}
+
+.ibmlogo{
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 62px;
+    margin-bottom: 60px;
+}
+
+.paragraph{
+    width:530px;
+    font-size: 1.188rem;
+    margin:0 auto;
+    margin-top: 60px;
+    
+}
+
+.container{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 140px;
+}
+.flexavatar{
+    margin-top: 50px;
+    display: flex;
+    gap:10px;
 }
 
-.flex p{
-    text-align: left;
+.name{
+    text-align: center;
+    margin-top: 3px;
 }
 
-.learn{
-    margin-top: 15px;
-}
-.flex img{
-    position: relative;
-    z-index: 1;
+.name h5{
+    font-weight: 450;
+    font-size: 1.125rem;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color:#20262A;
 }
 
-.flex a{
-    list-style: none;
-    text-decoration: none;
-    color: #00B6F0;
-    text-transform: uppercase;
-    cursor: pointer;
+.name h6{
+    font-weight: 450;
+    font-size: 1.125rem;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color:#5C5C5C;
     
 }
-
-
-.laptop{
-    margin-left: 550px;
-    margin-top: 140px;
+.small{
     position: relative;
+    left:0px;
+    margin-left:-500px;
+    bottom: 90px;
     
 }
-
-
-
-
-
- /* .vek8{  
+.bottomcorner{
     position: absolute;
-    top: 1000px;
-    bottom: 0;
-    right: 0;
-    left: 100px;
-    
- } 
-
-.flex2{
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
+    right:0px;
+    z-index: -1;
+     margin-bottom: 70px; 
 }
 
-.flex2 img{
-
-    position: relative;
-    bottom: 600px; 
-    z-index: 1;
+.partfour{
+    max-width: 1282px;
+    height:496px;
+    background-color:#182333 ;
 }
-
-.flex2 p{
-    margin-bottom: 500px;
-    text-align: left;
-}
-.flex2 a{
-    list-style: none;
-    text-decoration: none;
-    margin-top: 30px;
-    color: #00B6F0;
-    text-transform: uppercase;
-    cursor: pointer;
-    bottom: 400px;
-}
-
-*/
