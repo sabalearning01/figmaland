@@ -446,23 +446,16 @@ color:#20262A;
     
 }
 
-.container{
-    display: flex;
-    justify-content: space-evenly;
+.flex{
+    display:flex;
+    justify-content: center;
     align-items: center;
-}
-.flexavatar{
     margin-top: 50px;
-    display: flex;
     gap:10px;
 }
 
-.name{
-    text-align: center;
-    margin-top: 3px;
-}
 
-.name h5{
+.name .heading{
     font-weight: 450;
     font-size: 1.125rem;
     line-height: 20px;
@@ -478,21 +471,53 @@ color:#20262A;
     color:#5C5C5C;
     
 }
-.small{
-    position: relative;
-    left:0px;
-    margin-left:-500px;
-    bottom: 90px;
+
+.alltestimony{
+    width: 255px; 
+    margin-top: 50px;
+    background-color: #00B6F0;
+    border: none;
+    padding: 30px 50px 30px 50px;
+    border-radius: 85px;
+    margin-left: 40%;
+    margin-right: 40%
+   }
+
+.alltestimony a{
+    width:135px;
+    font-size: 1.125rem;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color:white;
+}   
+
+
+.smalle{
+    position: absolute;
+    width: 122.35px;
+    top: 3800px;
+    left: 120px;
+    angle: 52.82 deg;
     
 }
+
+
 .bottomcorner{
     position: absolute;
-    right:0px;
-    z-index: -1;
-     margin-bottom: 70px; 
+    width: 562px;
+    top: 3900px;
+    left: 950px;
+    z-index: -10;
+    
+    
+
+
 }
 
 .partfour{
+    margin-top: 100px;
     max-width: 1282px;
     height:496px;
     background-color:#182333 ;
