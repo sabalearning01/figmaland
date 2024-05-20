@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+@font-face{
+    font-family: 'circular std';
+    src:url(circular/CircularStd-Medium.otf);
+}
 
 body{
      overflow-x: hidden;
      max-width:  1,282px;
+     font-family: circular-std;
      
 }
 header{
@@ -232,7 +237,13 @@ color:#20262A;
     position: relative;
     display: flex;
     padding: 100px 118.5px;
+    
 }
+
+.opentype{
+    margin-top: 70px;
+}
+
 .opentype-laptop{
     z-index: 10;
 }
@@ -266,8 +277,9 @@ color:#20262A;
     font-weight: 450;
     line-height: 20px;
     letter-spacing: 0.2px;
-    margin-top: 20px;
+    margin-top: 30px;
     cursor: pointer;
+    
 }
 
 
@@ -499,7 +511,7 @@ color:#20262A;
     width: 122.35px;
     top: 3800px;
     left: 120px;
-    angle: 52.82 deg;
+    /* angle: 52.82 deg; */
     
 }
 
@@ -521,4 +533,168 @@ color:#20262A;
     max-width: 1282px;
     height:496px;
     background-color:#182333 ;
+}
+
+.col{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pricing h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color:white;
+    line-height: 65px;
+    letter-spacing: 0.2px;
+    margin-top: 100px;
+    
+}
+
+.pricing p{
+    font-weight: 450;
+    font-size: 1.188rem;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color:white;
+    margin-top: 16px;
+}
+
+.day{
+    margin-top: 110px;
+}
+
+.day p{
+    color:white;
+    font-weight: 450;
+    font-size: 1.125rem;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+.flexing{
+    display:flex;
+
+}
+
+.span span{
+   font-size: 4.5rem;
+   font-weight: 900;
+   line-height: 78px;
+   letter-spacing: 0.2px;
+   color:#F3CD03;
+  
+
+}
+/* new */
+.flexcontainer{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+}
+
+
+
+
+
+
+/* old */
+/* .month p{ 
+font-family: Circular Std;
+font-size: 1.5rem;
+font-weight: 450;
+line-height: 38px;
+letter-spacing: 0.2px;
+text-align: left;
+}
+
+*/
+/* .most{ 
+    font-size: 1.5rem;
+font-weight: 450;
+line-height: 38px;
+letter-spacing: 0.2px;
+padding-right: 0px;
+text-align: left;
+}
+*/ 
+
+/*  
+.get button{
+    width:196px;
+    background-color: #00B6F0;
+    padding: 20px 38px 20px 38px;
+    border: none;
+    border-radius: 85px;
+}
+
+.get a {
+    text-decoration: none;
+    color:white;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+*/
+.partfive{
+    width:1282px;
+    height: 443px;
+    background: linear-gradient(180deg, #E9FAFF 0%, rgba(233, 250, 255, 0) 100%);
+    
+}
+
+.flexfooter{
+    display:flex;
+    gap:91px;
+    padding-left: 64px;
+    
+    
+
+}
+
+.we h4{
+    margin-top: 86px;
+    font-size: 2.25rem;
+    line-height: 42px;
+    letter-spacing: 0.1px;
+    font-weight: 450;
+    color: #20262A;
+}
+
+.para{
+    margin-top: 86px;
+    
+}
+
+.Being {
+    font-size: 1.188rem;
+    font-weight: 450;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    padding: 10px;   
+    color:#5C5C5C;
+}
+
+.para button{
+    width:192px;
+    background-color: #00B6F0;
+    border:none;
+    margin-left: 10px;
+    padding: 20px 36px 20px 36px;
+    border-radius: 85px;
+    margin-top: 20px;
+
+}
+
+
+.para a {
+    text-decoration: none;
+    color:white;
+    font-size: 1.125rem;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
 }
