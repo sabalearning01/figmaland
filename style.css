@@ -788,6 +788,12 @@ footer{
 .icon{
    cursor: pointer; 
 }
+.smallscreen{
+    display:none;
+}
+.smallblue{
+    display:none;
+}
 
 .hamburger{
     display:none;
@@ -807,7 +813,7 @@ footer{
         margin-left: 5px;
         cursor: pointer;
         margin-bottom:5px ;
-        width: 100px;
+        width: 120px;
         height: auto;
 
      }
@@ -842,18 +848,61 @@ footer{
      }
     
      .hero .part1 h1{ 
-     font-size: 3.5rem;
+     font-size: 2.5rem;
      font-weight: 700;
-     line-height: 65px;
+     line-height: 50px;
      letter-spacing: 0.2px;
      text-align: center;
      color:#112D57;
+     margin-bottom: 20px;
 
      }
 
+.hero .part1 p{
+    display:none;
+}
+
+
+
+     .hero .part1 .smallscreen{
+    display: block;
+     font-size: 24px;
+     font-weight: 450;
+     line-height: 38px;
+     letter-spacing: 0.2px;
+     text-align: center;
+     margin-top: 28px;
+
+
+     }
+
+
+
+
+
+
+
+
+
      
 
+     .scaler{
+        display:none;
+     }
 
+     .vector{
+        display:none;
+     }
+     
+     .smallblue{
+        display:block;
+        position: absolute;
+        left: 0;
+        bottom:10px;
+        max-width: 100%;
+        height: 100%;
+
+     }
 
 
 
