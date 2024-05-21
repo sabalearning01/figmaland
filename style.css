@@ -795,10 +795,17 @@ footer{
     display:none;
 }
 
+.yellowsmall{
+    display:none;
+}
+
 .hamburger{
     display:none;
 }
 
+.smallscreenshot{
+   display:none;
+}
 
 @media only screen and (min-width: 375px) {
    header{
@@ -865,7 +872,7 @@ footer{
 
 
      .hero .part1 .smallscreen{
-    display: block;
+     display: block;
      font-size: 24px;
      font-weight: 450;
      line-height: 38px;
@@ -876,6 +883,17 @@ footer{
 
      }
 
+     .screen{
+        display:none;
+     }
+     .smallscreenshot{
+        position: relative;
+        display:block;
+        z-index: 1;
+         width:350px;
+        height:316px;
+
+     }
 
 
 
@@ -898,12 +916,24 @@ footer{
         display:block;
         position: absolute;
         left: 0;
-        bottom:10px;
+        top:90px;
+        bottom:1px;
         max-width: 100%;
         height: 100%;
+        /* z-index: -1px; */
 
      }
+    
+     .yellowsmall{
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0px;
+        top:320px;
+        max-width: 100%;
+        height: 80%;
 
+     }
 
 
 }
