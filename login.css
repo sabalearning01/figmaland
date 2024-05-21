@@ -109,6 +109,7 @@ body {
     display: inline-flex;
     gap:10px;
     color:white;
+    margin-right: 80px; 
     
 }
 
@@ -168,10 +169,9 @@ margin-top: 5px;
     right:5px;
 }
 
-.box2 .art { 
+ .box2 .art {
     position: absolute;
-    top:310px; 
+    top:220px; 
     bottom:px;
     z-index: 1;
-    motion-rotation:-22.93 deg; 
-} 
+     } 
