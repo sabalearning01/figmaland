@@ -4,15 +4,19 @@
     box-sizing: border-box;
 }
 
-@font-face{
-    font-family: 'circular std';
-    src:url(circular/CircularStd-Medium.otf);
-}
+@font-face {
+    font-family: 'Circular-std';
+    src: url('circular-std\ \(1\)/.ttf');
+  }
+  
 
 body{
-     overflow-x: hidden;
-     max-width:  1,282px;
-     font-family: circular-std;
+     /* overflow-x: hidden; */
+     /* width:100%; */
+     font-family: 'Circular-std', sans-serif; 
+     max-width:  1,282px; 
+     
+     margin: 0 auto;
      
 }
 header{
@@ -25,7 +29,7 @@ header{
 }
 
 header img{
-   margin-left: 50px;
+   margin-left: 50px; 
    cursor: pointer;
    margin-bottom:10px ;
 }
@@ -34,7 +38,7 @@ header img{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 35px;
+    gap: 31px;
 
 }
 .links li{
@@ -44,6 +48,7 @@ header img{
 .links li a{
 text-decoration: none;
 color:#20262A;
+margin-right: 60px ;
 
 }
 
@@ -54,6 +59,7 @@ color:#20262A;
     border:none;
     border: 1px solid #00B6F0;
     background-color: white;
+    margin-right: 30px;
 }
 .primary-cta a{
     color:#00B6F0;
@@ -66,6 +72,9 @@ color:#20262A;
 
 .hero{
     margin: 0 auto;
+    background-image: url("image/Vector-5.png"), url("image/Vector-6.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, bottom right;
     
 }
 
@@ -135,15 +144,17 @@ color:#20262A;
 }
 
 .vector{
-    position: absolute;
-    left: 0;
-    bottom:10px;
-    max-width: 100%;
-    height: 100%;
+    background-image: url(image/Vector\ \(5\).png);
+    /* position: absolute; */
+    /* left: 0px; */
+    /* bottom:10px; */
+    /* max-width: 100%; */
+    /* height: 100%; */
     
 }
 
 .scaler{
+    background-image: url(image/Vector\ \(6\).png);
     position: absolute;
     right: 0;
     bottom: 0px;
@@ -531,12 +542,16 @@ color:#20262A;
     color:white;
 }   
 
-
+.smallebottomcorner{
+    position:relative;
+}
 .smalle{
     position: absolute;
-    width: 122.35px;
-    top: 3800px;
-    left: 120px;
+    /* width: 122.35px; */
+    top:-210px;
+    /* top:-180px; */
+    /* left:200px; */
+    left:140px;
     max-width: 100%;
     height: 100%;
 
@@ -547,8 +562,10 @@ color:#20262A;
 .bottomcorner{
     position: absolute;
     width: 562px;
-    top: 3900px;
-    left: 950px;
+    /* top: 3900px; */
+    right:-225px;
+    bottom:100px;
+    /* left: 950px; */
     z-index: -10;
     max-width: 100%;
     height: 100%;
@@ -682,7 +699,7 @@ text-align: left;
 
 */
 .partfive{
-    width:1282px;
+    width:100%;
     height: 443px;
     background: linear-gradient(180deg, #E9FAFF 0%, rgba(233, 250, 255, 0) 100%);
     
@@ -748,8 +765,7 @@ text-align: left;
 
 footer{
     background-color: white;
-    width: 1282px;
-    height:157px;
+    
 }
 
 .logoimage p{
@@ -807,7 +823,88 @@ footer{
    display:none;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 768px) {
+        /* CSS rules for screens smaller than or equal to 768px */ 
+          header{
+    
+                display: flex;
+                justify-content:space-between ;
+                align-items: center;
+                width:90%;
+                margin-top: 20px;
+               }
+
+           header img{
+                margin-left: 50px; 
+                cursor: pointer;
+                margin-bottom:10px ;
+             }
+
+            .links li{
+                display:none;
+            }
+
+            .primary-cta{
+                padding: 20px 36px 20px 36px;
+                border-radius: 85px ;
+                border:none;
+                border: 1px solid #00B6F0;
+                background-color: white;
+                margin-right: 30px;
+            }
+            .primary-cta a{
+                color:#00B6F0;
+                text-decoration: none;
+                font-size: 1.125rem;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+            }
+            
+
+             .hamburger{
+                display:block;
+             }
+             
+             .hero h1{
+                font-size: 3.875rem;
+             }
+              
+             .screen{
+                /* margin-top: 30px; */
+             }
+
+
+
+          }
+    
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px) {
    header{
     display: flex;
     justify-content:space-between ;
@@ -836,7 +933,7 @@ footer{
         border:none;
         border: 1px solid #00B6F0;
         background-color: white;
-        display:block;
+        /* display:block; */
      }
 
      .primary-cta a{
