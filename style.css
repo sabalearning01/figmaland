@@ -1030,6 +1030,210 @@ footer {
         height: 100%;
       }
 
+      .partfour {
+        /* margin-top: 100px; */
+        max-width: 100%;
+        height: 808px;
+        background-color: #182333;
+      }
+      
+
+      .mothercontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .children {
+        display: flex;
+      }
+      
+      .left-column{
+        text-align: center;
+      }
+
+      .left-column h1 {
+        
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: white;
+        line-height: 65px;
+        letter-spacing: 0.2px;
+        margin-top: 100px;
+      }
+      
+      .left-column p {
+        font-weight: 450;
+        font-size: 1.188rem;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        color: white;
+        margin-top: 16px;
+      }
+      
+      .right-column {
+        margin-top: 110px;
+      }
+      
+      .right-column p {
+        color: white;
+        font-weight: 450;
+        font-size: 1.125rem;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        margin-top: 10px;
+      }
+      
+      .children {
+        display: flex;
+        gap: 10px;
+      }
+      
+      span {
+        font-size: 4.5rem;
+        font-weight: 900;
+        line-height: 78px;
+        letter-spacing: 0.2px;
+        color: #f3cd03;
+      }
+      
+      .right-column button {
+        width: 196px;
+        background-color: #00b6f0;
+        padding: 20px 38px;
+        border: none;
+        border-radius: 85px;
+        margin-top: 20px;
+      }
+      
+      .right-column a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.125rem;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+      }
+      
+
+      .partfive {
+        width: 100%;
+        height: 735px;
+        background: linear-gradient(180deg, #e9faff 0%, rgba(233, 250, 255, 0) 100%);
+      }
+      
+      .flexfooter {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .we{
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+
+      }
+      .we h4 {
+        text-align: center;
+        padding-top: 50px;
+        font-size: 2.25rem;
+        line-height: 42px;
+        letter-spacing: 0.1px;
+        font-weight: 450;
+        color: #20262a;
+      }
+    
+      
+      .Being {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 1.188rem;
+        font-weight: 450;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        padding: 10px;
+        color: #5c5c5c;
+      }
+      
+      .para button {
+        width: 192px;
+        background-color: #00b6f0;
+        border: none;
+        padding: 20px 36px;
+        border-radius: 85px;
+        margin-top: 20px;
+        margin-right: 35%;
+        margin-left: 35%;
+      }
+      
+      .para a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.125rem;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        font-weight: 700;
+      }
+      
+      footer {
+        background-color: white;
+        width: 100%;
+        height:618px;
+      }
+
+      .logoimage img{
+        margin-right: 38%;
+        margin-left: 38%;
+      }
+      
+      .logoimage p {
+        margin-bottom: 20px;
+        text-align: center;
+        padding-left: 10px;
+        font-weight: 450;
+        font-size: 1.125rem;
+        color: #5c5c5c;
+        line-height: 28px;
+        letter-spacing: 0.1px;
+      }
+      
+      .foot {
+        display: block;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .navlinks {
+        margin-top: 52px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 40px;
+        list-style: none;
+      }
+      
+      .navlinks a {
+        text-decoration: none;
+        font-size: 1.125rem;
+        line-height: 20px;
+        font-weight: 450;
+        letter-spacing: 0.2px;
+        cursor: pointer;
+        color: #20262a;
+      }
+      
+      .icon {
+        display: block;
+        flex-direction: column;
+        cursor: pointer;
+        margin-right: 38%;
+        margin-left: 38%;
+        margin-top: 109px;
+      }
 
 }
 
