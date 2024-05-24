@@ -753,9 +753,25 @@ footer {
   display: none;
 }
 
+.partthree .file{
+    display:none;
+}
+
+.partthree .freelance{
+    display:none;
+}
+
+.smallebottomcorner .smallemobile{
+    display:none;
+}
+
+
+
 @media only screen and (max-width: 768px) {
   header {
     display: flex;
+
+
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -862,7 +878,7 @@ footer {
     display: none;
   }
 
-
+  
   /* .smalltype{ *
             display:flex;
             justify-content: start;
@@ -874,8 +890,147 @@ footer {
      .lappy{
         position: absolute;
         left:0px;
+     }*/
+
+     .partthree h3{
+       display:none;
      }
-            */
+
+     .partthree .file{
+        display: block;
+        font-size: 3.5rem;
+        font-weight: 700;
+
+     }
+
+     .partthree .freelance{
+        display:block;
+     }
+
+     .partthree .being{ 
+        display:none;
+     }
+
+     .getstarted {
+        width: 266px;
+        background-color: #00b6f0;
+        padding: 20px 36px;
+        border: none;
+        border-radius: 85px;
+        margin-left: 35%; 
+        margin-right: 35%; 
+        margin-top: 52px;
+      }
+      
+      .getstarted a {
+        color: white;
+        list-style: none;
+        text-decoration: none;
+        font-family: Circular Std;
+        font-size: 1.125rem;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+      }
+
+      .testimonytime {
+        text-align: center;
+        margin-top: 169px;
+        font-size: 2.25rem;
+        letter-spacing: 0.1px;
+        line-height: 42px;
+        font-weight: 450;
+        color: #20262a;
+      }
+      
+      .ibmlogo {
+        margin-left: 40%;
+        margin-right: 40%;
+        margin-top: 62px;
+        margin-bottom: 60px;
+      }
+      
+     
+      .paragraph {
+        width: 530px;
+        font-size: 1.188rem;
+        margin: 0 auto;
+        margin-top: 60px;
+      }
+      
+      .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        gap: 10px;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+      }
+      
+      .name .heading {
+        font-weight: 450;
+        font-size: 1.125rem;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #20262a;
+      }
+      
+      .name h6 {
+        font-weight: 450;
+        font-size: 1.125rem;
+        line-height: 28px;
+        letter-spacing: 0.1px;
+        color: #5c5c5c;
+      }
+      
+      .alltestimony {
+        width: 275px;
+        margin-top: 50px;
+        background-color: #00b6f0;
+        border: none;
+        padding: 30px 50px;
+        border-radius: 85px;
+        margin-left: 35%;
+        margin-right: 35%;
+      }
+      
+      .alltestimony a {
+        width: 135px;
+        font-size: 1.125rem;
+        line-height: 20px;
+        font-weight: 700;
+        letter-spacing: 0.2px;
+        text-decoration: none;
+        color: white;
+      }
+      
+      .smallebottomcorner {
+        position: relative;
+      }
+      .smalle img{
+        display: none;
+      }
+     .smallebottomcorner .smallemobile {
+        display: block;
+        position: absolute;
+        top: -290px;
+        left: -140px;
+      }
+      
+      .bottomcorner {
+        position: absolute;
+        width: 562px;
+        right: -225px;
+        bottom: 100px;
+        z-index: -10;
+        max-width: 100%;
+        height: 100%;
+      }
+
+
 }
 
 /* @media only screen and (max-width: 375px) { 
