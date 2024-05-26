@@ -835,7 +835,7 @@ footer {
   .parttwo h2 {
     text-align: center;
     position: relative;
-    bottom: 150px;
+    bottom: 320px;
   }
 
   .parttwo h1 {
@@ -845,13 +845,13 @@ footer {
   .parttwo .mobile {
     display: block;
     position: relative;
-    bottom: 140px;
+    bottom: 320px;
   }
 
   .parttwo .most {
     display: block;
     position: relative;
-    bottom: 140px;
+    bottom: 310px;
   }
 
   .btn2 {
@@ -859,7 +859,7 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     position: relative;
-    bottom: 140px;
+    bottom: 320px;
   }
 
   .primary1 {
@@ -878,20 +878,44 @@ footer {
     display: none;
   }
 
+  .variable-yellow{
+    display:none;
+  }
+
+  .variable-code{
+    display: none;
+  }
+
+  .variable {
+    display: none;
+  }
+
   
-  /* .smalltype{ *
+   .smalltype{ 
             display:flex;
             justify-content: start;
             align-items: center;
             position: relative;
+            bottom:100px;
             
         }
 
      .lappy{
         position: absolute;
         left:0px;
-     }*/
+        bottom:30px;
+     }
 
+     .fonts{
+        position: relative;
+        z-index: 100px;
+        top:290px;
+     }
+
+     .fonts h2{
+        margin-bottom: 1px;
+
+     }
      .partthree h3{
        display:none;
      }
@@ -1134,9 +1158,11 @@ footer {
         display: block;
         justify-content: center;
         align-items: center;
+        
 
       }
       .we h4 {
+        margin-left: 20px;
         text-align: center;
         padding-top: 50px;
         font-size: 2.25rem;
