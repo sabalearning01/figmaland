@@ -765,6 +765,11 @@ footer {
     display:none;
 }
 
+.smalltype2{
+  display: none;
+}
+
+
 
 
 @media only screen and (max-width: 768px) {
@@ -896,7 +901,7 @@ footer {
             justify-content: start;
             align-items: center;
             position: relative;
-            bottom:100px;
+            bottom:300px;
             
         }
 
@@ -906,16 +911,31 @@ footer {
         bottom:30px;
      }
 
-     .fonts{
+     /* .fonts{ 
         position: relative;
-        z-index: 100px;
-        top:290px;
+        bottom:290px;
      }
 
      .fonts h2{
-        margin-bottom: 1px;
+        margin-top: 300px;
 
      }
+      */
+
+     .smalltype2{
+      display:flex;
+      justify-content:flex-end;
+      align-items: center;
+      position: relative;
+      }
+
+      .coding{
+        position:absolute;
+        right: 0;
+        bottom:30px;
+      }
+
+  
      .partthree h3{
        display:none;
      }
