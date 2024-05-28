@@ -1059,141 +1059,36 @@ footer {
     flex-direction: column;
   }
 
-  /* .opentype-container {
-    display: none;
-  }
-
-  .opentype-laptop {
-    display: none;
-  }
-
-  .variable-yellow{
+  .loraopen-vector-d{
     display:none;
   }
-
-  .variable-code{
-    display: none;
+  .smallopen-vector-m{
+    position: absolute;
+    display: block;
+    right: 0;
+    height: 90%;
+    width: 25%;
+    top: -100px;
+    z-index: -7;
+  }
+  
+  .yopen-container{
+    width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    order: 2;
   }
 
-  .variable {
-    display: none;
+  .open-img1{
+    width: 100%;
+    order: 1;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .open-img1 img{
+    width: 100%;
   }
 
-
- .smalltype{  
-            display:flex;
-            justify-content: start;
-            align-items: center;
-            position: relative;
-            margin-top: 30px;
-            
-        }
-
-     .lappy{
-        position: absolute;
-        left:0px;
-        bottom:30px;
-     }
-
-     .smalltype h2{
-      position: relative;
-      text-align: center;
-      top: 300px;
-      left: 25px;
-      font-size: 2.5rem;
-      font-weight: 450;
-      line-height: 42px;
-      letter-spacing: 0.1px;
-      color: #20262a;
-      margin-bottom: 20px;
-      margin: 0 auto;
-     }
-
-     .smalltype p{
-      position:relative;
-      top:400px;
-      right:220px;
-      color: #5c5c5c;
-      font-size: 1.5rem;
-      font-weight: 450;
-      line-height: 38px;
-      letter-spacing: 0.2px;
-      margin-top: 60px;
-     }
-
-     .smalltype a{
-      position:absolute;
-      top:750px;
-      left:42%;
-      margin-right: 50px;
-      text-decoration: none;
-      text-transform: uppercase;
-      color:#00B6F0;
-      font-size: 1.125rem;
-      font-weight: 450;
-      line-height: 20px;
-      letter-spacing: 0.2px;
-      
-     }
-
-
-    .vectorlap2{
-      position:absolute;
-      right:0;
-    }
-      */
-
-      /* .smalltype2{  
-      display:flex;
-      flex-direction: column;
-      /* justify-content:flex-end; 
-      align-items: center;
-      position: relative;
-      /* bottom: 50px; 
-      }
-       */
-       
-      /* .vectorlap2{ 
-        position: absolute;
-        right: 0;
-        z-index: -50;
-      }
-      /* .coding{  
-        /* position:absolute; 
-         right:0px;
-         width:100%;
-        /* bottom:30px; 
-      }
-        */
-
-/* .smalltype2 h2{  
-       position: relative; 
-      text-align: center;
-       top: 250px;
-      right: 100px; 
-     }
-      */
-
-     /* .smalltype2 p{ 
-       position:relative; 
-      top:350px;
-      left:150px; 
-      width: 60%;
-      margin-right: auto;
-      margin-left: auto;
-     }
- */
-
- /* .smalltype2 h2{
-      position: relative;
-      top:230px;
-      right: 290px;
- } */
-
- /* .smalltype2 p{
-     position: relative;
-     top:200px;
- } */
   
      .partthree h3{
        display:none;
