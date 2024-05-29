@@ -495,7 +495,7 @@ header img {
 }
 
 .partthree .progress {
-  width: 56%;
+  width: 60%;
   /* width:757px; */
   height: 15px;
   background-color: #f3f5f8;
@@ -881,8 +881,10 @@ footer {
 }
 
 .smallp {
-  display: none;
+  display:none;
 }
+
+
 
 @media screen and (max-width: 1028px) {
   .blue-open-container {
@@ -1427,9 +1429,15 @@ footer {
   .open-container {
     width: 90%;
   }
+
+  .yopen-container {
+    width: 90%;
+    
+  }
+
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
   header {
     display: flex;
     justify-content: space-around;
@@ -1480,17 +1488,14 @@ footer {
 
   .part1 h1 {
     font-size: 3rem;
-    line-height: 30px;
+    line-height: 65px;
+    text-align: center;
   }
 
   .part1 p{
-    font-size: 1rem;
+    display:none;
   }
 
-  /* .part1 p{ 
-    display: none;
-  }
-  */
   .smallp{
     display: block;
   }
@@ -1507,13 +1512,16 @@ footer {
     display: none;
   }
 
+  .btn{
+    margin-top: 30px;
+  }
   .smallscreenshot {
     display: block;
     width: 100%;
     margin: 0 auto;
     margin-bottom: 350px;
     position: relative;
-    top: 80px;
+    top: 10px;
     
   }
 
@@ -1524,25 +1532,26 @@ footer {
   } */
 
   .parttwo h1 {
+    display: none;
+  }
+
+  .test h2 {
+    display: none;
+  }
+  
+
+  .desk p{
     display: block;
-  }
-
-  .test {
-    display: none;
-  }
-
-  .desk {
-    display: none;
   }
 
   .mobiletest {
     display: block;
     color: #f3cd03;
-    margin-top: 300px;
+    margin-top: 200px;
     text-align: center;
   }
 
-  .mobile {
+  .mobile h1 {
     display: block;
   }
 
@@ -1695,6 +1704,78 @@ footer {
      top:200px;
  } */
 
+ .blue-open-container {
+  flex-direction: column;
+}
+.open-vector-d {
+  display: none;
+}
+.open-vector-m {
+  position: absolute;
+  display: block;
+  left: 0;
+  height: 90%;
+  width: 25%;
+  top: -120px;
+  z-index: -7;
+}
+.open-container {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  order: 2;
+}
+.open-img {
+  width: 100%;
+  order: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+.open-img img {
+  width: 100%;
+}
+
+
+
+ .yellow-open-container {
+  flex-direction: column;
+}
+
+
+
+.loraopen-vector-d {
+  display: none;
+}
+.smallopen-vector-m {
+  position: absolute;
+  display: block;
+  right: 0;
+  height: 50%;
+  width: 25%;
+  top: -100px;
+  z-index: -7;
+}
+
+.yopen-container {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  order: 2;
+}
+
+.open-img1 {
+  width: 100%;
+  order: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+.open-img1 img {
+  width: 381px;
+  height: 351px;
+}
+
+
+
   .partthree h3 {
     display: none;
   }
@@ -1709,19 +1790,36 @@ footer {
   .partthree .freelance {
     display: block;
   }
+  .partthree .progress {
+    width: 67%;
+    height: 15px;
+    background-color: #f3f5f8;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 52px;
+    border-radius: 5px;
+  }
+  
+  .partthree .progressbar {
+    width: 50%;
+    height: 15px;
+    background: #00b6f0;
+    border-radius: 5px;
+  }
+  
 
   .partthree .being {
     display: none;
   }
 
   .getstarted {
-    width: 266px;
+    width: 200px;
     background-color: #00b6f0;
-    padding: 20px 36px;
+    padding: 20px 16px;
     border: none;
     border-radius: 85px;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 27%;
+    margin-right: 25%;
     margin-top: 52px;
   }
 
@@ -1730,7 +1828,7 @@ footer {
     list-style: none;
     text-decoration: none;
     font-family: Circular Std;
-    font-size: 1.125rem;
+    font-size: 1.110rem;
     font-weight: 700;
     line-height: 20px;
     letter-spacing: 0.2px;
@@ -1747,15 +1845,15 @@ footer {
   }
 
   .ibmlogo {
-    margin-left: 40%;
+    margin-left: 34%;
     margin-right: 40%;
     margin-top: 62px;
     margin-bottom: 60px;
   }
 
   .paragraph {
-    width: 530px;
-    font-size: 1.188rem;
+    width: 355px;
+    font-size: 1rem;
     margin: 0 auto;
     margin-top: 60px;
   }
@@ -1789,19 +1887,20 @@ footer {
   }
 
   .alltestimony {
-    width: 275px;
-    margin-top: 50px;
+    width: 200px;
     background-color: #00b6f0;
+    padding: 20px 16px;
     border: none;
-    padding: 30px 50px;
     border-radius: 85px;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 27%;
+    margin-right: 25%;
+    margin-top: 75px;
+    
   }
 
   .alltestimony a {
     width: 135px;
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height: 20px;
     font-weight: 700;
     letter-spacing: 0.2px;
@@ -1854,7 +1953,7 @@ footer {
   }
 
   .left-column h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
     color: white;
     line-height: 65px;
@@ -1864,7 +1963,7 @@ footer {
 
   .left-column p {
     font-weight: 450;
-    font-size: 1.188rem;
+    font-size: 1rem;
     line-height: 30px;
     letter-spacing: 0.2px;
     color: white;
