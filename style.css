@@ -882,6 +882,10 @@ footer {
   display: none;
 }
 
+.off-menu{
+  display:none;
+}
+
 @media screen and (max-width: 1028px) {
   .blue-open-container {
     padding-left: 60px;
@@ -914,6 +918,30 @@ footer {
     display: none;
   }
 
+  .off-menu{
+    width:50%;
+    height: 100vh;
+    max-width: 450px;
+    list-style: none;
+    text-decoration: none;
+    background-color: #182333;
+    color:white;
+    padding:10px;
+    transition:.3s ease;
+    display:flex;
+    position: fixed;
+    top:0;
+    right:-450px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .off-menu.active{
+    right:0;
+  }
+
   .primary-cta {
     padding: 10px 26px;
     border-radius: 85px;
@@ -934,6 +962,8 @@ footer {
   .hamburger {
     display: block;
   }
+
+  
 
   .hero {
     background-image: url(image/yellowsmall.png), url(image/bluesmall.png);

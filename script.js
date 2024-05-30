@@ -1,11 +1,18 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const hamburger = document.getElementById('hamburger');
-    const menulink = document.getElementById('links');
 
-    hamburger.addEventListener('click', function() {
-        menu.classList.toggle('show-menu');
-        hamburger.children[0].classList.toggle('rotate1');
-        hamburger.children[1].classList.toggle('rotate2');
-        hamburger.children[2].classList.toggle('rotate3');
+    // const hamburger = document.getElementById('hamburger');
+    // const menulink = document.getElementById('links');
+
+    // hamburger.addEventListener('click', function() {
+    //     menulink.classList.toggle('links');
+    //     hamburger.classList.toggle('hamburger');
+
+        
+    // });
+
+    const hamburger =document.getElementById('hamburger');
+    const offMenuList =document.querySelector('.off-menu');
+
+    hamburger.addEventListener('click', function(){
+     offMenuList.classList.toggle('off-menu');
+     hamburger.classList.toggle('hamburger');
     });
-});
