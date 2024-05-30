@@ -10,10 +10,10 @@ const agreeCheckbox = document.getElementById('confirm');
 // const emailError = document.getElementById('emailError');
 // const passwordError = document.getElementById('passwordError');
 
-function validateEmail(email) {
-    const re = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
-    return re.test(String(email).toLowerCase());
-}
+// function validateEmail(email) {
+    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    // return re.test(String(email).toLowerCase());
+// }
 
 function validateForm(e) {
     e.preventDefault()
@@ -22,10 +22,10 @@ function validateForm(e) {
     const passwordValue = passwordInput.value.trim()
     const checkboxValue = agreeCheckbox.value.trim()
     // let isValid = false;
-    console.log(nameInputValue);
-    console.log(emailValue);
-    console.log(passwordValue);
-    console.log(checkboxValue);
+    // console.log(nameInputValue);
+    // console.log(emailValue);
+    // console.log(passwordValue);
+    // console.log(checkboxValue);
 
     if (nameInputValue === '') {
         const nameParent = nameInput.parentElement
@@ -34,20 +34,45 @@ function validateForm(e) {
         span.textContent = 'Name cannot be empty'
     } else {
         const nameParent = nameInput.parentElement
+        console.log(nameParent.classList);
         nameParent.classList.add('success')
     }
 
 
     if (emailValue === ''){
-        const mailParent1 = emailValue.parentElement
-        mailParent1.classList.add('error')
-        const spanerr = mailParent1.querySelector('span')
-        spanerr.textContent = 'email cannot be empty and less than eight'
-    }else{
-        const mailParent1 = emailValue.parentElement
-        mailParent1.classList.add('sucess')
+        const emailControl = emailInput.parentElement
+        const span = emailControl.querySelector('span')
+        emailControl.classList.add('error')
+        span.textContent = 'email cannot be empty'
+    }else if(emailRegex.test(emailValue))
+        {
+        const emailControl = emailInput.parentElement
+        emailControl.classList.add('success')
         
+    }else{
+        const emailControl = email.parentElement
+        const span = emailControl.querySelector('span')
+        emailControl.classList.add('error')
+        span.textContent = 'Enter a valid email'
     }
+
+    if (passwordValue === ''){
+            const passwordControl = passwordInput.parentElement
+            const span = passwordControl.querySelector('span')
+            passwordControl.classList.add('error')
+            span.textContent = 'enter your password'
+           } else if(passwordValue.length <= 6) {
+            const passwordControl = passwordInput.parentElement
+            const span = passwordControl.querySelector('span')
+            passwordControl.classList.add('error')
+            span.textContent = 'password cannot be less than 6 characters'
+            } else {
+                const passwordControl = passwordInput.parentElement
+                passwordControl.classList.add('success') 
+            }
+            alert('Logged in successfully')
+
+    // }
 
 
     // if (nameInput.value.trim() === '') {
