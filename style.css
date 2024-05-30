@@ -1429,6 +1429,11 @@ footer {
   .yopen-container {
     width: 90%;
   }
+  .yellow-open-container {
+    padding-left: 25px;
+    padding-right: 25px;
+
+  }
 }
 
 @media only screen and (max-width: 426px) {

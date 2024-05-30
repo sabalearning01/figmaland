@@ -12,6 +12,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <script defer src="login.js"></script>
   </head>
   <body>
@@ -22,37 +25,34 @@
           <div class="form-group">
               <i class="fa fa-user"></i>
               <input type="text" id="name" placeholder="Name">
-              <div class="error" id="nameError">Please enter your name</div>
+              <span class="" id="nameError"></span>
           </div>
           <div class="form-group">
             <i class="fa fa-envelope"></i>
             <input type="email" id="email" placeholder="Email">
-            <div class="error" id="emailError">Please enter a valid email</div>
+            <span class="error" id="emailError"></span>
         </div>
 
         
         <div class="form-group">
           <i class="fa fa-lock "></i>
           <input type="password" id="password" placeholder="Password">
-          <div class="error" id="passwordError">Please enter your password</div>
+          <span class="error" id="passwordError"></span>
       </div>
       <div class="checkbox-group">
         <input type="checkbox" id="confirm">
         <label for="confirm">I’ve read and agreed to the <span>Terms & Conditions.</span></label>
+        <span></span>
     </div>
-    <button type="create" id="createBtn" disabled>CREATE ACCOUNT</button>
-    <p>Already registered? <span>Sign in</p>
+    <button type="submit" id="createBtn">CREATE ACCOUNT</button>
+    <p>Already registered? <span>Sign in</span></p>
   </form>
 
-        </div>
-
        <div class="box2">
+   <h3>Discover the rare and unique world of digital assets.</h3>
+    <img src="image/image 1 (1).png" alt="bitcoin"/>     
+  </div>
 
-       </div>
-
-     </div>
-   
-     
-    
+     </div>    
   </body>
 </html>
