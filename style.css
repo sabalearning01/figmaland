@@ -906,6 +906,7 @@ footer {
     align-items: center;
     width: 100%;
     margin-top: 20px;
+    position: sticky;
   }
 
   header img {
@@ -919,28 +920,52 @@ footer {
   }
 
   .off-menu{
-    width:50%;
-    height: 100vh;
-    max-width: 450px;
+    width:100%;
+    height: 50vh; 
+    max-width: 750px;
     list-style: none;
     text-decoration: none;
     background-color: #182333;
     color:white;
     padding:10px;
     transition:.3s ease;
-    display:flex;
-    position: fixed;
-    top:0;
-    right:-450px;
+    /* display:flex; */
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* top:0;  */
+     /* right:-450px;  */
+     right:-250px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 11px;
+  }
+  .off-menu li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
   }
 
   .off-menu.active{
     right:0;
+     background-color: #e9faff;
+    /* height: 10vh; */
+    width:30%;
+    color:white
   }
+
+  .off-menu a{
+    padding:10px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+
+
 
   .primary-cta {
     padding: 10px 26px;
@@ -2165,12 +2190,13 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 70%;
+    width: 30%;
     gap: 10px;
     margin-top: 20px;
   }
 
   header img {
+
     /* margin-left: 5px;   */
     cursor: pointer;
     /* width:10%; */
@@ -2263,6 +2289,7 @@ footer {
 
   .desk p {
     display: block;
+    
   }
 
   .mobiletest {
@@ -2645,10 +2672,10 @@ footer {
   }
 
   .para button {
-    width: 192px;
+    width: 102px;
     background-color: #00b6f0;
     border: none;
-    padding: 20px 16px;
+    padding: 10px 10px;
     border-radius: 85px;
     margin-top: 20px;
     margin-right: 45%;
@@ -2693,6 +2720,8 @@ footer {
     justify-content: space-around;
     align-items: center;
   }
+
+  
   .navlinks {
     margin-top: 52px;
     text-align: center;
